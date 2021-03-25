@@ -78,62 +78,41 @@ a:link{
 
 /*----NAV BAR----*/
 
-#navbar{
-    background-color: #061826;
-    padding: 15px 90px;
-    color: white;
-    height: 45px;
-    border-bottom: #604586 solid 3px;
-    border-top: #604586 solid 3px;
-}
+     #navbar{
+        background-color: #061826;
+        padding: 15px 90px;
+        color: white;
+        height: 45px;
+        border-bottom: #604586 solid 3px;
+        border-top: #604586 solid 3px;
+    }
 
-.navbar{
-    padding: 0;
-}
-
-.nav-icon{
-    color:#99a8b3;
-    border: #99a8b3 solid 2px;
-    padding: 5px;
-}
-
-.navbar-brand{
-    color:#99a8b3;
-    font-size: 20px;
-    margin: 0;
-}
-
-.navbar-brand:hover{
-    color: #99a8b3;
-}
-
-.nav-item{
-    padding: 0 0.6vw;
-}
-
-.nav-link {
-  color: white;
-  font-size: 1.1vw;
-  white-space: nowrap;
-  font-weight: 600;
-}
-
-.nav-link:hover{
-    color:#99a8b3;
-}
+    .navbar{
+        padding: 1px;
+        border-bottom: #604586 solid 3px;
+        border-top: #604586 solid 3px;
+    }
+    .bg-info {
+        background: #061826 !important;
+    }
+    .nav-item{
+        padding: 0 0.6vw;
+    }
+ 
+    .nav-link {
+        color: white !important;
+        font-size: 1rem !important;
+    } 
+    @media screen and (max-width: 800px) {
+        .navbar {
+            padding: 5px;
+        }
+    }
 
 .header-bottom{
     background-color: white;
     height: 20px;
 }
-
-/*Hover for nav drop down*/
-@media only screen and (min-width: 768px) {
-    .dropdown:hover .dropdown-menu {
-      display: block;
-    }
-}
-
 /*---HOME PAGE----*/
 
 .welcome{
